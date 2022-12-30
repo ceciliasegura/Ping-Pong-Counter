@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: 300px;
+    background-color: hsl(294, 48%, 87%)
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.counter-header {
+    text-align: center;
+    padding: 10px;
+}
+
+.pinpong-image {
+    text-align: center;
+}
+
+.pinpong-image>img {
+    width: 500px;
+}
+
+.points {
+
+    font-size: 30px;
+    text-align: center;
+}
+
+.max-points {
+    text-align: center;
+    padding: 20px;
+}
+
+.player-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+
+}
+
+button {
+    width: 200px;
+    background-color: blueviolet;
+    font-size: 16px;
+    border: 10px;
+    border-radius: 8px;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: rgb(105, 25, 180);
+}
